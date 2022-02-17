@@ -5,6 +5,10 @@ interface IObj {
   name: string
 }
 
+type TObj = {
+  name: string
+}
+
 const sample = [
   { "id": "234", "name": "Smith", address: "Tokyo Shibuya High Building ", zip: "012-1023" },
   { "id": "345", "name": "Karen Abe", address: "Hokkaido Sapporo City ", zip: "070-1232" },
